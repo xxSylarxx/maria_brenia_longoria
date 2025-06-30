@@ -401,18 +401,18 @@
                             <div class="details">
                                 <div class="row d-flex">
                                     <div class="col-lg-5">
-                                        <h3>Comunión</h3>
+                                        <h3>Boletín Informativo 2025</h3>
                                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                         <a class="btn" href="./view2.php?id=1">Ver Más</a>
                                     </div>
                                     <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/pastoral.png" width="35%" alt="">
+                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4 pt-5">
+                    <div class="col-lg-4 pt-5">
                         <div class="card-galeria card2">
                             <div class="container-galeria">
                                 <img id="portada-galeria" src="./public/img/galeria/p2_galeria.jpg" alt="galeria">
@@ -420,11 +420,11 @@
                             <div class="details">
                                 <div class="row d-flex">
                                     <div class="col-lg-5">
-                                        <h3>Confirmación</h3>
+                                        <h3>Proyecto Curricular 2025</h3>
                                         <a class="btn" href="./view2.php?id=2">Ver Más</a>
                                     </div>
                                     <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/pastoral.png" width="35%" alt="">
+                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -435,19 +435,37 @@
                             <div class="container-galeria">
                                 <img id="portada-galeria" src="./public/img/galeria/p3_galeria.jpg" alt="galeria">
                             </div>
-                           <div class="details">
+                            <div class="details">
                                 <div class="row d-flex">
                                     <div class="col-lg-5">
-                                        <h3>Retiro</h3>
+                                        <h3>Proyecto Educativo</h3>
                                         <a class="btn" href="./view2.php?id=3">Ver Más</a>
                                     </div>
                                     <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/pastoral.png" width="35%" alt="">
+                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="col-lg-4 pt-5">
+                        <div class="card-galeria card3">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/p3_galeria.jpg" alt="galeria">
+                            </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Reglamento Interno</h3>
+                                        <a class="btn" href="./view2.php?id=4">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- <div class="row" style="padding-left:8%;padding-right:8%;">

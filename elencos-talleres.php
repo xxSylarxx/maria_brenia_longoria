@@ -439,7 +439,7 @@
         <section class="cta-banner">
             <h2>¡Inscríbete hoy y sé parte de nuestra comunidad!</h2>
             <p>Descubre tus talentos, haz nuevos amigos y desarrolla habilidades que te acompañarán toda la vida.</p>
-            <a href="#" class="btn">Más información</a>
+            <a href="./contacto.php" class="btn">Más información</a>
         </section>
     </div>
     <br>
