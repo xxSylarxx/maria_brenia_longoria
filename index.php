@@ -402,7 +402,7 @@
                         </div>
                         <div class="row d-flex justify-content-start pt-4">
                             <div class="col-lg-3 py-2">
-                                <a href="https://wa.me/+976225985"> <button href="#" class="button">
+                                <a href="https://wa.me/+51976225985"> <button href="#" class="button">
                                         <span class="button__icon-wrapper">
                                             <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
                                                 <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
@@ -428,7 +428,6 @@
                                         </span>
                                         Conócenos
                                     </button>
-
                                 </a>
                             </div>
                         </div>
@@ -443,7 +442,7 @@
                         </div>
                         <div class="row d-flex justify-content-start pt-4">
                             <div class="col-lg-3 py-2">
-                                <a href="https://wa.me/+976225985"> <button href="#" class="button">
+                                <a href="https://wa.me/+51976225985"> <button href="#" class="button">
                                         <span class="button__icon-wrapper">
                                             <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
                                                 <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
@@ -458,7 +457,7 @@
                             <div class="col-lg-5 p-2">
                                 <a href="./somos.php">
                                     <!-- From Uiverse.io by Creatlydev -->
-                                    <button href="./somos.php" class="button2">
+                                    <button onclick="window.location.href='./somos.php'"  class="button2">
                                         <span class="button2__icon-wrapper">
                                             <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button2__icon-svg" width="10">
                                                 <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>

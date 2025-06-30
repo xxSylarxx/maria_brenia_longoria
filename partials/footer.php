@@ -59,7 +59,7 @@
 
 </footer>
 <div class="bar-inf2" style="position: fixed; bottom: 60px; right: 20px; z-index: 999;">
-    <a href="https://wa.me/+976225985" target="_blank" class="text-success">
+    <a href="https://wa.me/+51976225985" target="_blank" class="text-success">
         <span class="py-2 px-3 border bg-light rounded">Informes</span>
         <img src="./public/img/icons/logo_wsp.png" width="90" class="ms-2">
     </a>
