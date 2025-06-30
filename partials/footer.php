@@ -49,7 +49,8 @@
                 <!-- <h4 class="text-start">Contáctanos</h4> -->
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-location-arrow" style="color:var(--color4);font-size:.8rem;"></i><a href="https://maps.app.goo.gl/Q9ac2jPDwQWuT6Rz7 " class="item-footer" target="_blank">&nbsp;&nbsp;Jr. Olmedo 120 - Breña</a></div>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-phone-alt" style="color:var(--color4);font-size:.8rem;"></i><a href="#" class="item-footer">&nbsp;&nbsp;01 - 330 17 42/ 972 735 332</a></div>
-                <div class="d-flex justify-content-start py-2"><i class="fas fa-envelope" style="color:var(--color4);font-size:.8rem;"></i><a href="#" class="item-footer">&nbsp;&nbsp;secretaria@cepma.edu.pe<br>admision@cepma.edu.pe</a></div>
+                <div class="d-flex justify-content-start py-2"><i class="fas fa-envelope" style="color:var(--color4);font-size:.8rem;"></i><a href="mailto:secretaria@cepma.edu.pe" class="item-footer">&nbsp;&nbsp;secretaria@cepma.edu.pe</a></div>
+                <div class="d-flex justify-content-start py-2"><i class="fas fa-envelope" style="color:var(--color4);font-size:.8rem;"></i>><a href="mailto:admision@cepma.edu.pe"class="item-footer">admision@cepma.edu.pe</a></div>
             </div>
 
         </div>
