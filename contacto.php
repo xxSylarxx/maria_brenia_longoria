@@ -106,6 +106,9 @@
             height: 4px;
             width: 50px;
         }
+        #terminos{
+            font-size: 1rem;
+        }
 
         @media screen and (max-width:500px) {
 
@@ -148,24 +151,24 @@
                     <div class="datosList mt-4">
                         <div class="d-flex item">
                             <span> <i class="fas fa-map-marker-alt"></i> </span>
-                            <h5> Avenida Separadora Industrial #3250 <br> La Molina, Lima - Perú</h5>
+                            <h5> Jr. Olmedo 120 - Breña</h5>
                         </div>
                         <div class="d-flex item">
                             <span> <i class="far fa-envelope"></i> </span>
-                            <h5>colegiocousteau2017@gmail.com</h5>
+                            <h5>admision@cepma.edu.pe</h5>
                         </div>
                         <div class="d-flex item">
                             <span> <i class="fas fa-phone"></i> </span>
-                            <h5> (51) 948 886 928 </h5>
+                            <h5> 01-330 17 42/ 972 735 332 </h5>
                         </div>
-                        <div class="d-flex item">
+                        <!-- <div class="d-flex item">
                             <span><i class="fab fa-facebook"></i></i> </span>
                             <h5><a href="https://www.facebook.com/p/Colegio-Jacques-Cousteau-La-Molina" target="_blank">Facebook</a></h5>
-                        </div>
+                        </div> -->
                     
 
                         <div class="mt-4">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11035.900566198792!2d-76.94568353167335!3d-12.058648155370793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c694e7fbe8f1%3A0x3a08562c20d83bfd!2sAv.%20Separadora%20Industrial%203250%2C%20Lima%2015012!5e0!3m2!1ses!2spe!4v1724953317153!5m2!1ses!2spe" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3901.7079524881287!2d-77.0451143!3d-12.063604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c2b4166b27%3A0x34a388c1cbc91743!2sInstituci%C3%B3n%20Educativa%20Mar%C3%ADa%20Auxiliadora!5e0!3m2!1ses!2spe!4v1751319516087!5m2!1ses!2spe" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -212,7 +215,7 @@
                                 </select>
 
                                 <div class="col-md">
-                                    <label for="grado">Grado:</label>
+                                    <label for="grado" class="form-label" style="font-size: 14px;">Grado:</label>
                                     <select class="mb-3 form-select" aria-label="Default select example" id="grado" name="grado" required>
                                         <option value="">Seleccione un grado</option>
                                     </select>

@@ -30,6 +30,16 @@
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
     <style>
+        .btn-history {
+            background-color: var(--color1);
+            color: var(--color3);
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+
+
+        }
+
         .separador {
             background-color: var(--color4);
             height: 4px;
@@ -190,14 +200,15 @@
 
         .swiper-slide--four {
             background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-                url("./public/img/web/infraestructura/patio3.jpg") no-repeat 50% 50% / cover;
+                url("./public/img/web/infraestructura/capilla.jpg") no-repeat 50% 50% / cover;
         }
 
         .swiper-slide--five {
             background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-                url("./public/img/web/infraestructura/patio_juegos.jpg") no-repeat 50% 50% / cover;
+                url("./public/img/web/infraestructura/capilla2.jpg") no-repeat 50% 50% / cover;
         }
 
+        /* 
         .swiper-slide--six {
             background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
                 url("./public/img/web/infraestructura/grass_sintetico1.jpg") no-repeat 50% 50% / cover;
@@ -211,7 +222,7 @@
         .swiper-slide--eight {
             background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
                 url("./public/img/web/infraestructura/grass_sintetico3.jpg") no-repeat 50% 50% / cover;
-        }
+        } */
 
         .swiper-3d .swiper-slide-shadow-left,
         .swiper-3d .swiper-slide-shadow-right {
@@ -277,6 +288,10 @@
                         <p>
                             La infraestructura de CEPMA Breña, reúne áreas de carácter monumental y espacios modernos, Nuestra Capilla y el pabellón de Primaria resultan siendo el área monumental, y el resto de las instalaciones son espacios más modernos, sin embargo, todas las instalaciones del Colegio están diseñadas exclusivamente para la labor educativa.
                         </p>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn-history" href="./public/files/inicio_de_capilla_brenia.pdf" target="_blank">Ver historia</a>
+                        </div>
                     </div>
                 </div>
 
@@ -349,7 +364,7 @@
                         </div>
                         <span style="background: var(--color1);">CEPMA - BREÑA</span>
                         <div>
-                            <h2>Patio</h2>
+                            <h2>Capilla 1</h2>
                             <p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -367,7 +382,7 @@
                         </div>
                         <span style="background: var(--color1);">CEPMA - BREÑA</span>
                         <div>
-                            <h2>Patio de Juegos</h2>
+                            <h2>Capilla 2</h2>
                             <p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -377,7 +392,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="swiper-slide swiper-slide--six">
+                    <!-- <div class="swiper-slide swiper-slide--six">
                         <div class="foto" onclick="openModal(5)"> <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -430,7 +445,7 @@
                                 Lima
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -543,7 +558,7 @@
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
-        slidesPerView: "auto",
+        slidesPerView: 3,
         coverflowEffect: {
             rotate: 0,
             stretch: 0,
@@ -574,17 +589,27 @@
             "portada": `<img src="./public/img/web/infraestructura/fachada.png" alt="img01" width="100%">`,
         },
         {
-            "portada": `<img src="./public/img/web/infraestructura/patio1.jpg" alt="img01" width="100%">`,
+            "portada": `<video width="100%" controls autoplay muted>
+                    <source src="./public/img/web/infraestructura/primaria.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>`,
         },
         {
-            "portada": `<img src="./public/img/web/infraestructura/patio2.jpg" alt="img01" width="100%">`,
+            "portada": `<video width="100%" controls autoplay muted>
+                    <source src="./public/img/web/infraestructura/secundaria.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>`,
         },
         {
-            "portada": `<img src="./public/img/web/infraestructura/patio3.jpg" alt="img01" width="100%">`,
+            "portada": `<video width="100%" controls autoplay muted>
+                    <source src="./public/img/web/infraestructura/capilla-1.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>`,
         },
         {
-            "portada": `<img src="./public/img/web/infraestructura/patio_juegos.jpg" alt="img01" width="100%">`,
-        },
+            "portada": `<img src="./public/img/web/infraestructura/capilla_2.jpg" alt="img01" width="100%">`,
+        }
+        /* 
         {
             "portada": `<img src="./public/img/web/infraestructura/grass_sintetico1.jpg" alt="img01" width="100%">`,
         },
@@ -593,7 +618,7 @@
         },
         {
             "portada": `<img src="./public/img/web/infraestructura/grass_sintetico3.jpg" alt="img01" width="100%">`,
-        }
+        } */
     ]
 
     function openModal(index) {
