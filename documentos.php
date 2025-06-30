@@ -319,27 +319,221 @@
         </div>
     </section>
     <br><br>
-    <section id="publicaciones">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-12 px-5 text-center">
-                    <h2>Documentos</h2>
+    <section id="noticias">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div style="text-align:start;">
+                            <h2>Documentos</h2>
+                            <div class="separador mx-start"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 px-5 pt-5">
-                    <a href="">
-                        <div class="shadow" style="border: bottom 5px solid var(--color3); background-color:white;">
-                            <div class="card1">
-                                <img src="" alt="">
+            <br>
+            <div class="container">
+                <style>
+                    .card-galeria {
+                        background-color: rgba(0, 0, 0, 0.03);
+                        border-radius: 10px;
+                        box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+                    }
+
+                    .container-galeria {
+                        position: relative;
+                        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+                    }
+
+                    #portada-galeria {
+                        width: 100%;
+                        display: block;
+                        border-radius: 10px 10px 0 0;
+                    }
+
+                    .container-galeria:after {
+                        content: "";
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        border-radius: 10px 10px 0 0;
+                        opacity: 0.7;
+                    }
+
+                    /* .card1>.container-galeria:after {
+                        background-image: linear-gradient(135deg, var(--color1), var(--color1));
+                    }
+
+                    .card2>.container-galeria:after {
+                         background-image: linear-gradient(135deg, var(--color1), var(--color1));
+                    }
+
+                    .card3>.container-galeria:after {
+                        background-image: linear-gradient(135deg, var(--color1), var(--color1));
+                    } */
+
+                    .details {
+                        padding: 20px 10px;
+                    }
+
+                    .details h3 {
+                        color: var(--color1);
+                        font-weight: 600;
+                        font-size: 18px;
+                        margin: 10px 0 15px 0;
+                    }
+
+                    .details p {
+                        color: #a0a0a0;
+                        font-size: 15px;
+                        line-height: 30px;
+                        font-weight: 400;
+                    }
+                </style>
+                <div class="row cards d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4 pt-5">
+                        <div class=" card-galeria card1">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/p1_galeria.jpeg" alt="galeria">
                             </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Comunión</h3>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                        <a class="btn" href="./view2.php?id=1">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/pastoral.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4 pt-5">
+                        <div class="card-galeria card2">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/p2_galeria.jpg" alt="galeria">
+                            </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Confirmación</h3>
+                                        <a class="btn" href="./view2.php?id=2">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/pastoral.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-5">
+                        <div class="card-galeria card3">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/p3_galeria.jpg" alt="galeria">
+                            </div>
+                           <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Retiro</h3>
+                                        <a class="btn" href="./view2.php?id=3">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/pastoral.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <div class="row" style="padding-left:8%;padding-right:8%;">
+
+                <div class="col-md-4 px-3 my-3">
+                    <a href="view2.php?id=12">
+                        <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                            <span class="news">Noticias</span>
+                            <img src="./public/img/galeria/calendario_octubre.jpg" width="100%" height="300">
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-uppercase text-warning" style="font-size: 18px;">CALENDARIO OCTUBRE 2022</h5>
+
+                                <div class="detalle">
+
+                                    ¡Compartimos nuestro calendario 2022!
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
+                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+
+                                <span class="ms-2">11-10-2022</span>
+
+                            </div>
+
                         </div>
                     </a>
                 </div>
-            </div>
+                <div class="col-md-4 px-3 my-3">
+                    <a href="view2.php?id=11">
+                        <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                            <span class="news">Noticias</span>
+                            <img src="./public/img/galeria/reconocimiento_carlos.jpg" width="100%" height="300">
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-uppercase text-warning" style="font-size: 18px;">RECONOCIMIENTO</h5>
+
+                                <div class="detalle">
+
+                                    ¡Reconocimiento a nuestro alumno Carlos Santivañez, por su esfuerzo y dedicación. ¡Le deseamos todos los éxitos!
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
+                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+
+                                <span class="ms-2">10-10-2022</span>
+
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 px-3 my-3">
+                    <a href="view2.php?id=10">
+                        <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                            <span class="news">Noticias</span>
+                            <img src="./public/img/galeria/calendario_setiembre.jpg" width="100%" height="300">
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-uppercase text-warning" style="font-size: 18px;">CALENDARIO SETIEMBRE 2022</h5>
+
+                                <div class="detalle">
+
+                                    ¡Compartimos nuestro calendario 2022!
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer text-info" style="background: transparent; font-size: 16px;">
+                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+
+                                <span class="ms-2">02-09-2022</span>
+
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </div> -->
         </div>
     </section>
     <br>

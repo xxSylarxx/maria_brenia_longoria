@@ -195,10 +195,10 @@ switch ($pagina) {
                         <ul id="menu-responsive" class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item py-2" href="./pastoral.php">Pastoral</a></li>
                             <li><a class="dropdown-item py-2" href="./tutoria.php">Tutoría</a></li>
-                            <li><a class="dropdown-item py-2" href="#" target="_blank">Coordinación Pegagógica</a></li>
+                            <!-- <li><a class="dropdown-item py-2" href="#" target="_blank">Coordinación Pegagógica</a></li>
                             <li><a class="dropdown-item py-2" href="#">Ecología Integral</a></li>
                             <li><a class="dropdown-item py-2" href="#">Actividades</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Convivencia Ciudadana</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Convivencia Ciudadana</a></li> -->
                         </ul>
                     </li>
                     <li id="barra-menu-responsive" class="nav-item" onmouseover="showMenuHover(4)" onmouseout="showMenuHover2(4)">

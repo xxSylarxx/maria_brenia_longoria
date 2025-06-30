@@ -95,7 +95,7 @@
         }
 
         .ensemble-img {
-            height: 180px;
+            height: 200px;
             overflow: hidden;
 
         }
@@ -203,9 +203,10 @@
             background: linear-gradient(to right, var(--color1), var(--color2));
             z-index: 0;
         }
-         .cta-banner {
-            background: linear-gradient(rgba(0, 86, 179, 0.9), rgba(0, 86, 179, 0.7)), 
-                        url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover;
+
+        .cta-banner {
+            background: linear-gradient(rgba(0, 86, 179, 0.9), rgba(0, 86, 179, 0.7)),
+                url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover;
             color: white;
             text-align: center;
             padding: 4rem 1rem;
@@ -244,22 +245,28 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
+        .titulo-adaptado {
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
     </style>
-    <section>
-        <div class="container-fluid" id="portada">
+
+    <div class="container-fluid" id="portada">
             <div class="container">
                 <div class="row">
                 </div>
             </div>
-        </div>
-    </section>
+    </div>
     <div class="container " style="padding-top:5rem;">
         <!-- Elencos Estudiantiles -->
         <section class="mb-5">
             <div class="row">
                 <div class="col-lg ">
                     <div style="text-align:center;">
-                        <h2>Elencos Estudiantiles</h2>
+                        <h2>Talleres Estudiantiles</h2>
                     </div>
                     <div class="separador mx-auto"></div>
                 </div>
@@ -268,83 +275,72 @@
             <br>
             <div class="row g-4 d-flex justify-content-center">
                 <!-- Orquesta -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card ensemble-card h-100">
                         <div class="ensemble-img">
-                            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Orquesta escolar">
+                            <img src="./public/img/img-page/taller-voley.jpg" class="card-img-top" alt="Orquesta escolar">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title text-primary fw-bold">Orquesta Estudiantil</h4>
-                            <p class="card-text">Programa musical que desarrolla talentos y disciplina a través de la práctica orquestal.</p>
+                            <h4 class="card-title text-primary fw-bold">Vóley</h4>
+                            <p class="card-text">Espacio donde los alumnos aprenden voleibol, trabajan en equipo y se divierten haciendo deporte.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Banda -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card ensemble-card h-100">
                         <div class="ensemble-img">
-                            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Banda escolar">
+                            <img src="./public/img/img-page/taller-basket2.jpg" class="card-img-top" alt="">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title text-primary fw-bold">Banda Musical</h4>
-                            <p class="card-text">Formación en instrumentos de viento y percusión. </p>
+                            <h4 class="card-title text-primary fw-bold">Básquet</h4>
+                            <p class="card-text">Los alumnos aprenden fundamentos del básquet, desarrollan coordinación y fortalecen el trabajo en equipo. </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Coro -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card ensemble-card h-100">
                         <div class="ensemble-img">
-                            <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80" class="card-img-top" alt="Coro escolar">
+                            <img src="./public/img/img-page/taller-ajedrez.jpeg" class="card-img-top" alt="">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title text-primary fw-bold">Coro Polifónico</h4>
-                            <p class="card-text">Desarrollo vocal y auditivo para estudiantes de todos los niveles. </p>
+                            <h4 class="card-title text-primary fw-bold">Ajedrez</h4>
+                            <p class="card-text">Los estudiantes fortalecen su concentración, memoria y pensamiento estratégico a través del juego. </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Teatro -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card ensemble-card h-100">
                         <div class="ensemble-img">
-                            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Teatro escolar">
+                            <img src="./public/img/img-page/taller-tennis-mesa.jpg" class="card-img-top" alt="">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title text-primary fw-bold">Grupo de Teatro</h4>
-                            <p class="card-text">Taller de expresión dramática que culmina con producciones anuales abiertas a la comunidad educativa.</p>
+                            <h4 class="card-title text-primary fw-bold">Tenis de Mesa</h4>
+                            <p class="card-text">Aprenden a jugar ajedrez mientras desarrollan memoria, lógica y concentración.
+
+</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Danzas -->
-                <div class="col-md-4">
+                <!-- <div class="col-md-3">
                     <div class="card ensemble-card h-100">
                         <div class="ensemble-img">
-                            <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80" class="card-img-top" alt="Danzas escolares">
+                            <img src="https://cdn.www.gob.pe/uploads/document/file/6288087/948733-324324.jpeg" class="card-img-top" alt="">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title text-primary fw-bold">Taller de Danzas</h4>
+                            <h4 class="card-title text-primary fw-bold">Atletismo</h4>
                             <p class="card-text">Desde folclore hasta danza contemporánea. Nuestros estudiantes representan al colegio en festivales.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Artes Visuales -->
-                <!-- <div class="col-md-4">
-                    <div class="card ensemble-card h-100">
-                        <div class="ensemble-img">
-                            <img src="https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Artes visuales">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title text-primary fw-bold">Artes Visuales</h4>
-                            <p class="card-text">Exploración de técnicas pictóricas y escultóricas con exhibición anual de trabajos estudiantiles.</p>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
+            </div> -->
         </section>
 
         <!-- Talleres Educativos -->
@@ -369,8 +365,8 @@
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-child me-2"></i>Arte y Expresión</h4>
                             <ul class="list-unstyled workshop-list">
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Danza y Ballet (desde inicial)</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Danza contemporánea (secundaria)</li>
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Danza y Ballet </li>
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Danza contemporánea </li>
                                 <li class="py-2"><i class="fas fa-check-circle me-2"></i>Artes plásticas y pintura</li>
                                 <li class="py-2"><i class="fas fa-check-circle me-2"></i>Teatro escolar</li>
                             </ul>
@@ -394,7 +390,7 @@
                 </div>
 
                 <!-- Deportes -->
-                <div class="col-md-6 col-lg-3">
+                <!-- <div class="col-md-6 col-lg-3">
                     <div class="card workshop-category h-100">
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-running me-2"></i>Deportes</h4>
@@ -407,7 +403,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Refuerzo Académico -->
                 <div class="col-md-6 col-lg-3">
@@ -415,7 +411,7 @@
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-graduation-cap me-2"></i>Refuerzo Académico</h4>
                             <ul class="list-unstyled workshop-list">
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>MateMax: Matemáticas divertidas</li>
+                                <li class="py-2 "><i class="fas fa-check-circle me-2"></i>Círculo de estudios MateMax</li>
                                 <li class="py-2"><i class="fas fa-check-circle me-2"></i>Club de ciencias</li>
                                 <li class="py-2"><i class="fas fa-check-circle me-2"></i>Taller de lectura comprensiva</li>
                                 <li class="py-2"><i class="fas fa-check-circle me-2"></i>Técnicas de estudio</li>
@@ -424,62 +420,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card workshop-category h-100">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold"><i class="fas fa-running me-2"></i>Espacios de Creatividad</h4>
+                            <ul class="list-unstyled workshop-list">
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Orquesta Estudiantil</li>
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Banda Musical</li>
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Coro Polifónico</li>
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Grupo de Teatro</li>
+                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Taller de Danzas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
-        <!-- Beneficios -->
-        <!-- <section class="card mb-5 border-0 shadow-sm">
-            <div class="card-body p-4">
-                <div class="section-title">
-                    <h3 class="fw-bold">Beneficios para Nuestros Estudiantes</h3>
-                </div>
-
-                <div class="row g-4 text-center">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-item">
-                            <div class="benefit-icon">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <h5 class="fw-bold">Desarrollo Integral</h5>
-                            <p class="text-muted">Estimulamos habilidades cognitivas, sociales y emocionales</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-item">
-                            <div class="benefit-icon">
-                                <i class="fas fa-trophy"></i>
-                            </div>
-                            <h5 class="fw-bold">Participación en Eventos</h5>
-                            <p class="text-muted">Oportunidades para competencias y festivales intercolegiales</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-item">
-                            <div class="benefit-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h5 class="fw-bold">Socialización</h5>
-                            <p class="text-muted">Espacios para hacer amigos con intereses similares</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-item">
-                            <div class="benefit-icon">
-                                <i class="fas fa-heart"></i>
-                            </div>
-                            <h5 class="fw-bold">Bienestar Emocional</h5>
-                            <p class="text-muted">Actividades que reducen el estrés académico</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- CTA -->
-         <section class="cta-banner">
+        <section class="cta-banner">
             <h2>¡Inscríbete hoy y sé parte de nuestra comunidad!</h2>
             <p>Descubre tus talentos, haz nuevos amigos y desarrolla habilidades que te acompañarán toda la vida.</p>
             <a href="#" class="btn">Más información</a>

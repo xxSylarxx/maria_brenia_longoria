@@ -316,9 +316,10 @@
             </div>
         </div>
     </section>
+    <br>
     <section id="propuesta">
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-4">
                 <div class="col-lg-6 px-2 my-auto">
                     <h2 class="text-start" style="color:black;">Servicios</h2>
                     <div class="separador mx-start"></div>
@@ -339,7 +340,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-4">
                 <div class="col-lg-6 my-auto">
                     <div class="d-flex justify-content-center mx-5">
                         <img src="./public/img/galeria/enfermeria_ok.jpg"  style="border-radius:8px;width:80%" alt="">
@@ -355,7 +356,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-4">
                 <div class="col-lg-6 px-2 my-auto">
                     <p style="font-size:1.4rem;text-align:center;font-weight:bold;color:var(--color1);">Área de Pastoral: </p>
                     <p>
