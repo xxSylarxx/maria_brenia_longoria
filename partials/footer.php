@@ -50,7 +50,7 @@
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-location-arrow" style="color:var(--color4);font-size:.8rem;"></i><a href="https://maps.app.goo.gl/Q9ac2jPDwQWuT6Rz7 " class="item-footer" target="_blank">&nbsp;&nbsp;Jr. Olmedo 120 - Breña</a></div>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-phone-alt" style="color:var(--color4);font-size:.8rem;"></i><a href="#" class="item-footer">&nbsp;&nbsp;01 - 330 17 42/ 972 735 332</a></div>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-envelope my-auto" style="color:var(--color4);font-size:.8rem;"></i><a href="mailto:secretaria@cepma.edu.pe" class="item-footer">&nbsp;&nbsp;secretaria@cepma.edu.pe</a></div>
-                <div class="d-flex justify-content-start py-2"><i class="fas fa-envelope my-auto" style="color:var(--color4);font-size:.8rem;"></i><a href="mailto:admision@cepma.edu.pe"class="item-footer">&nbsp;&nbsp;admision@cepma.edu.pe</a></div>
+                <div class="d-flex justify-content-start py-2"><i class="fas fa-envelope my-auto" style="color:var(--color4);font-size:.8rem;"></i><a href="mailto:admision@cepma.edu.pe" class="item-footer">&nbsp;&nbsp;admision@cepma.edu.pe</a></div>
             </div>
 
         </div>
@@ -66,9 +66,26 @@
     </a>
 </div>
 <div class="container-fluid" style="background-color: var(--color1);">
-    <div class="row ">
+    <!-- <div class="row ">
         <div class="col-lg-12 my-1 d-flex justify-content-center">
             <span style="text-align:center;color:var(--color3);">© 2026 Todos los derechos reservados, María Auxiliadora - Breña.</span>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col d-flex justify-content-start align-items-center">
+                <p class="my-1 text-center" style="font-size: 15px; color:var(--color3);"> María Auxiliadora - Breña. © 2025 </p>
+               <!--  <p class="my-1 text-center px-3" style="font-size:15px; color:var(--color1)"><a href="https://www.colegiojacquescousteau.edu.pe/public/files/politicas-priv-jacques.pdf" target="_blank">Conoce nuestras Politicas de Privacidad</a></p><a href="https://www.colegiojacquescousteau.edu.pe/public/files/politicas-priv-jacques.pdf" target="_blank">
+                </a> -->
+            </div>
+
+            <!-- <div class="col d-flex justify-content-center align-items-center" style="background-color:var(--color2);">
+                    <p class="my-1 text-center" style="font-size: 14px; color:var(--color1)"> <a href="https://docs.google.com/forms/d/e/1FAIpQLScoNRFs-jb1RUQw7qH0th8b3l6M0GXvhIyJdvSp4UyJlFaxnQ/viewform" target="_blank">Conoce nuestras Políticas de Privacidad</a></p>
+                </div> -->
+            <div class="col d-flex justify-content-end align-items-center">
+                <p class="my-1 text-center" style="font-size: 14px; color: #fff">Desarrollado por <a href="https://demo.cloud-sensoft.com/catalogo/" target="_blank" style="color: var(--color4); font-weight: bold;">Sensoft</a></p>
+            </div>
         </div>
     </div>
 </div><!-- End Footer -->
