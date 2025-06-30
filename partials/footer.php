@@ -42,8 +42,8 @@
             <div class="col-lg-3 py-2 px-5">
                 <div class="pb-1">
                     <div class="py-1" style="border-radius: 5px;background-color:var(--color4); width:100%;">
-                        <a href="/contacto" style="color:var(--color3);"></a>
-                        <h4 class="my-auto "><a href="/contacto" style="color:var(--color3);">Contáctanos</a></h4>
+                        <a href="./contacto.php" style="color:var(--color3);"></a>
+                        <h4 class="my-auto "><a href="./contacto.php" style="color:var(--color3);">Contáctanos</a></h4>
                     </div>
                 </div>
                 <!-- <h4 class="text-start">Contáctanos</h4> -->
