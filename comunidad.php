@@ -16,7 +16,10 @@
 
 <body>
 
+    <script src="./public/js/popper.min.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/bootstrap.pooper.js"></script>
     <script>
         window.addEventListener("scroll", function() {
             var header = document.querySelector("header");
@@ -405,7 +408,7 @@
         <div class="container" style="padding-bottom: 5rem;">
             <div class="row mt-5">
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(0);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sor-judith.png" alt="empresas">
 
@@ -413,7 +416,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card ">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(1);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sor-maria.png" alt="">
 
@@ -421,14 +424,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(2);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sor-nancy.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(3);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sor-paola.png" alt="">
                         </figure>
@@ -455,7 +458,7 @@
         <div class="container" style="padding-bottom: 5rem;">
             <div class="row mt-5">
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(4);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/bety-coord.png" alt="empresas">
 
@@ -463,7 +466,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card ">
+                    <div class="card " style="cursor:pointer;" onclick="openModal(5);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/ruth-coord.png" alt="">
 
@@ -471,14 +474,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(6);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/edith-coord.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(7);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/dep-psico.png" alt="">
                         </figure>
@@ -505,7 +508,7 @@
         <div class="container" style="padding-bottom: 5rem;">
             <div class="row mt-5">
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(8);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-grecia.png" alt="empresas">
 
@@ -513,7 +516,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card ">
+                    <div class="card " style="cursor:pointer;" onclick="openModal(9);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-paola.png" alt="">
 
@@ -521,49 +524,49 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(10);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-greis.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(11);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-mayka.png" alt="">
                         </figure>
                     </div>
                 </div>
-                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(12);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-carola.png" alt="">
                         </figure>
                     </div>
                 </div>
-                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(13);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-dora.png" alt="">
                         </figure>
                     </div>
                 </div>
-                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(14);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-nayroby.png" alt="">
                         </figure>
                     </div>
                 </div>
-                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(15);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-adriana.png" alt="">
                         </figure>
                     </div>
                 </div>
-                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(16);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/prim-lourdes.png" alt="">
                         </figure>
@@ -587,15 +590,16 @@
         <div class="container" style="padding-bottom: 5rem;">
             <div class="row mt-5">
                 <div class="col-md-3 mt-4">
-                    <div class="card">
-                        <figure class="m-0">
-                            <img src="./public/img/galeria/menendez-sec.png" alt="empresas">
-
-                        </figure>
-                    </div>
+                    <a onclick="openModal();">
+                        <div class="card" style="cursor:pointer;" onclick="openModal(17);">
+                            <figure class="m-0">
+                                <img src="./public/img/galeria/menendez-sec.png" alt="empresas">
+                            </figure>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card ">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(18);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-alessandra.png" alt="">
 
@@ -603,156 +607,304 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(19);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-betty.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(20);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-candia.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(21);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-carlos.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(22);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-chavez.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(23);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-chira.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(24);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-consuelo.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(25);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-delacruz.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(26);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-edith.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(27);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-elias.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(28);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-elida.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(29);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-erickson.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(30);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-fiorella.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(31);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-gian-maria.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(32);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-limache.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(33);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-loyo.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(34);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-marleny.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(35);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-mercedes.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(36);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-omar.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(37);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-paola.png" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;" onclick="openModal(38);">
                         <figure class="m-0">
                             <img src="./public/img/galeria/sec-samaniego.png" alt="">
                         </figure>
                     </div>
                 </div>
-
-
             </div>
-
-
-
         </div>
     </section>
     <br>
     <br>
+    <!-- Modal detalle -->
+    <div class="modal fade" id="modalDetalle" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered ">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h5 class="modal-title fw-bold">DETALLES</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body px-4" id="detailbody">
+                </div>
+            </div>
+        </div>
+    </div>
     <?php include_once  './partials/footer.php'; ?>
+    <script>
+        var modal = new bootstrap.Modal(document.getElementById('modalDetalle'));
+
+        const arraybooks = [{
+                "portada": "./public/img/galeria/sor-judith.png",
+            },
+            {
+                "portada": "./public/img/galeria/sor-maria.png",
+            },
+            {
+                "portada": "./public/img/galeria/sor-nancy.png",
+            },
+            {
+                "portada": "./public/img/galeria/sor-paola.png"
+            },
+            {
+                "portada": "./public/img/galeria/bety-coord.png"
+            },
+            {
+                "portada": "./public/img/galeria/ruth-coord.png"
+            },
+            {
+                "portada": "./public/img/galeria/edith-coord.png"
+            },
+            {
+                "portada": "./public/img/galeria/dep-psico.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-grecia.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-paola.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-greis.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-mayka.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-carola.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-dora.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-nayroby.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-adriana.png"
+            },
+            {
+                "portada": "./public/img/galeria/prim-lourdes.png"
+            },
+            {
+                "portada": "./public/img/galeria/menendez-sec.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-alessandra.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-betty.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-candia.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-carlos.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-chavez.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-chira.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-consuelo.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-delacruz.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-edith.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-elias.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-elida.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-erickson.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-fiorella.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-gian-maria.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-limache.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-loyo.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-marleny.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-mercedes.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-omar.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-paola.png"
+            },
+             {
+                "portada": "./public/img/galeria/sec-samaniego.png"
+            }
+
+        ]
+
+        function openModal(index) {
+            let book = arraybooks[index];
+            template(book.portada);
+            modal.show();
+        }
+
+        function template(portada) {
+            let html = `
+            <div class="row">
+                <div class="col-md">
+                    <img src="${portada}" class="" width="100%">
+                </div>
+            </div>
+            `;
+            document.getElementById("detailbody").innerHTML = html;
+        }
+    </script>
 </body>
 
 

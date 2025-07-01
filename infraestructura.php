@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="./public/css/web.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- carrousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- carrousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -107,6 +110,7 @@
             justify-content: end;
             align-items: self-start;
             position: relative;
+            transition-timing-function: linear !important; /* Movimiento más uniforme */
         }
 
         .swiper-slide-active {
@@ -208,11 +212,11 @@
                 url("./public/img/web/infraestructura/capilla2.jpg") no-repeat 50% 50% / cover;
         }
 
-        /* 
+        
         .swiper-slide--six {
             background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-                url("./public/img/web/infraestructura/grass_sintetico1.jpg") no-repeat 50% 50% / cover;
-        }
+                url("./public/img/web/infraestructura/capilla_3.jpg") no-repeat 50% 50% / cover;
+        }/* 
 
         .swiper-slide--seven {
             background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
@@ -285,8 +289,7 @@
             <div class="contianer-fluid">
                 <div class="row justify-content-center mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="col-lg-8">
-                        <p>
-                            La infraestructura de CEPMA Breña, reúne áreas de carácter monumental y espacios modernos, Nuestra Capilla y el pabellón de Primaria resultan siendo el área monumental, y el resto de las instalaciones son espacios más modernos, sin embargo, todas las instalaciones del Colegio están diseñadas exclusivamente para la labor educativa.
+                        <p>La infraestructura de CEPMA Breña, reúne áreas de carácter monumental y espacios modernos, Nuestra Capilla y el pabellón de Primaria resultan siendo el área monumental, y el resto de las instalaciones son espacios más modernos, sin embargo, todas las instalaciones del Colegio están diseñadas exclusivamente para la labor educativa.
                         </p>
                         <br>
                         <div class="d-flex justify-content-center">
@@ -324,7 +327,7 @@
                         <div class="foto" onclick="openModal(1)"> <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            </svg> VER FOTO
+                            </svg> VER VIDEO
                         </div>
                         <span style="background: var(--color1);">CEPMA - BREÑA</span>
                         <div>
@@ -342,7 +345,7 @@
                         <div class="foto" onclick="openModal(2)"> <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            </svg> VER FOTO
+                            </svg> VER VIDEO
                         </div>
                         <span style="background: var(--color1);">CEPMA - BREÑA</span>
                         <div>
@@ -360,7 +363,7 @@
                         <div class="foto" onclick="openModal(3)"> <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            </svg> VER FOTO
+                            </svg> VER VIDEO
                         </div>
                         <span style="background: var(--color1);">CEPMA - BREÑA</span>
                         <div>
@@ -392,7 +395,7 @@
                             </p>
                         </div>
                     </div>
-                    <!-- <div class="swiper-slide swiper-slide--six">
+                     <div class="swiper-slide swiper-slide--six">
                         <div class="foto" onclick="openModal(5)"> <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -400,7 +403,7 @@
                         </div>
                         <span style="background: var(--color1);">CEPMA - BREÑA</span>
                         <div>
-                            <h2>Campo de Grass Síntetico</h2>
+                            <h2>Capilla 3</h2>
                             <p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -410,6 +413,7 @@
                             </p>
                         </div>
                     </div>
+                    <!--
                     <div class="swiper-slide swiper-slide--seven">
                         <div class="foto" onclick="openModal(6)"> <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
@@ -450,79 +454,6 @@
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
             </div>
-
-            <!-- <div class="row justify-content-center mt-5" data-aos="zoom-in" data-aos-duration="1500">
-                <div class="col-lg-8">
-                    <h2 class="text-center" style="color:var(--color3);font-weight:bold;"> Ambientes de la Institución </h2>
-                    <div class="separador mx-auto"></div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="row justify-content-center ambientes" data-aos="zoom-in" data-aos-duration="1500">
-                <div class="col-lg-3">
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Hall.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Patio Inicial.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Aula de informática de primaria.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Aula de Psicomotricidad.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Laboratorio de Ciencias de Primaria.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Laboratorio de Ciencias de Secundaria.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Biblioteca.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Tópico de Enfermería.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Auditorio.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Oratorio.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Patio Principal.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Coliseo Deportivo.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Concesionaria del Kiosko.</p>
-                    </div>
-                    <div class="d-flex align-items-center my-3">
-                        <i class="fas fa-check-double"></i>
-                        <p class="mb-0 ms-2"> Comedor de Estudiantes.</p>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
 
@@ -553,66 +484,65 @@
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-<script>
-    var swiper = new Swiper(".swiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 3,
-        coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 2,
-            slideShadows: true
-        },
-        keyboard: {
-            enabled: true
-        },
-        mousewheel: {
-            thresholdDelta: 70
-        },
-        spaceBetween: 60,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
-        }
-    });
-</script>
-
+  <script>
+        var swiper = new Swiper(".swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 4,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true
+            },
+            keyboard: {
+                enabled: true
+            },
+            mousewheel: {
+                thresholdDelta: 70
+            },
+            spaceBetween: 60,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    </script>
 <script>
     // MODAL
 
     var modal = new bootstrap.Modal(document.getElementById('modalDetalle'));
     const arraybooks = [{
-            "portada": `<img src="./public/img/web/infraestructura/fachada.png" alt="img01" width="100%">`,
+            "portada": `<img src="./public/img/web/infraestructura/fachada.png" alt="img01" width="100%">`
         },
         {
             "portada": `<video width="100%" controls autoplay muted>
                     <source src="./public/img/web/infraestructura/primaria.mp4" type="video/mp4">
                     Tu navegador no soporta la reproducción de video.
-                </video>`,
+                </video>`
         },
         {
             "portada": `<video width="100%" controls autoplay muted>
                     <source src="./public/img/web/infraestructura/secundaria.mp4" type="video/mp4">
                     Tu navegador no soporta la reproducción de video.
-                </video>`,
+                </video>`
         },
         {
             "portada": `<video width="100%" controls autoplay muted>
                     <source src="./public/img/web/infraestructura/capilla-1.mp4" type="video/mp4">
                     Tu navegador no soporta la reproducción de video.
-                </video>`,
+                </video>`
         },
         {
-            "portada": `<img src="./public/img/web/infraestructura/capilla_2.jpg" alt="img01" width="100%">`,
-        }
-        /* 
-        {
-            "portada": `<img src="./public/img/web/infraestructura/grass_sintetico1.jpg" alt="img01" width="100%">`,
+            "portada": `<img src="./public/img/web/infraestructura/capilla_2.jpg" alt="img01" width="100%">`
         },
+        
+        {
+            "portada": `<img src="./public/img/web/infraestructura/capilla_31.jpg" alt="img01" width="100%">`,
+        }/* 
         {
             "portada": `<img src="./public/img/web/infraestructura/grass_sintetico2.jpg" alt="img01" width="100%">`,
         },
