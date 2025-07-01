@@ -399,7 +399,7 @@
                     <div class="col-lg-4 pt-5">
                         <div class="card-galeria card2 mx-4">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/portadas/noticias1.jpg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/portadas/noticia1.jpg" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
