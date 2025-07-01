@@ -207,7 +207,7 @@ switch ($pagina) {
                         </a>
                         <ul id="menu-responsive" class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item py-2" href="./documentos.php">Documentos</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Noticias</a></li>
+                            <li><a class="dropdown-item py-2" href="./noticias.php">Noticias</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

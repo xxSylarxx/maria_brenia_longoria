@@ -252,13 +252,16 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
+        .card-img, .card-img-top {
+            object-position: top;
+        }
     </style>
 
     <div class="container-fluid" id="portada">
-            <div class="container">
-                <div class="row">
-                </div>
+        <div class="container">
+            <div class="row">
             </div>
+        </div>
     </div>
     <div class="container " style="padding-top:5rem;">
         <!-- Elencos Estudiantiles -->
@@ -304,7 +307,7 @@
                 <div class="col-md-3">
                     <div class="card ensemble-card h-100">
                         <div class="ensemble-img">
-                            <img src="./public/img/img-page/taller-ajedrez.jpeg" class="card-img-top" alt="">
+                            <img src="./public/img/img-page/taller-ajedrez.jpg" class="card-img-top" alt="">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title text-primary fw-bold">Ajedrez</h4>
@@ -323,7 +326,65 @@
                             <h4 class="card-title text-primary fw-bold">Tenis de Mesa</h4>
                             <p class="card-text">Aprenden a jugar ajedrez mientras desarrollan memoria, lógica y concentración.
 
-</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="col-md-3">
+                    <div class="card ensemble-card h-100">
+                        <div class="ensemble-img">
+                            <img src="./public/img/img-page/manualidades.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-primary fw-bold">Manualidades</h4>
+                            <p class="card-text">Creatividad y habilidad en cada creación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card ensemble-card h-100">
+                        <div class="ensemble-img">
+                            <img src="./public/img/img-page/danza.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-primary fw-bold">Danza Contemporánea </h4>
+                            <p class="card-text">Los estudiantes exploran el movimiento, expresan emociones y mejoran su coordinación corporal.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card ensemble-card h-100">
+                        <div class="ensemble-img">
+                            <img src="./public/img/img-page/tejido.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-primary fw-bold">Tejido</h4>
+                            <p class="card-text">Aprenden a tejer mientras desarrollan concentración y habilidad manual.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card ensemble-card h-100">
+                        <div class="ensemble-img">
+                            <img src="./public/img/img-page/matemax.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-primary fw-bold">Estudios MateMax</h4>
+                            <p class="card-text">Refuerzan habilidades matemáticas de forma práctica y divertida.
+
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -364,12 +425,6 @@
                     <div class="card workshop-category h-100">
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-child me-2"></i>Arte y Expresión</h4>
-                            <ul class="list-unstyled workshop-list">
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Danza y Ballet </li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Danza contemporánea </li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Artes plásticas y pintura</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Teatro escolar</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -379,44 +434,14 @@
                     <div class="card workshop-category h-100">
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-hands me-2"></i>Desarrollo Creativo</h4>
-                            <ul class="list-unstyled workshop-list">
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Tejido y manualidades</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Arte terapia emocional</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Dibujo y cómic</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Fotografía creativa</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-
-                <!-- Deportes -->
-                <!-- <div class="col-md-6 col-lg-3">
-                    <div class="card workshop-category h-100">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold"><i class="fas fa-running me-2"></i>Deportes</h4>
-                            <ul class="list-unstyled workshop-list">
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Vóley (varones y damas)</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Básquet inter-escolar</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Ajedrez competitivo</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Tenis de Mesa</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Atletismo</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-
                 <!-- Refuerzo Académico -->
                 <div class="col-md-6 col-lg-3">
                     <div class="card workshop-category h-100">
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-graduation-cap me-2"></i>Refuerzo Académico</h4>
-                            <ul class="list-unstyled workshop-list">
-                                <li class="py-2 "><i class="fas fa-check-circle me-2"></i>Círculo de estudios MateMax</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Club de ciencias</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Taller de lectura comprensiva</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Técnicas de estudio</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Ortografía y redacción</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -424,13 +449,6 @@
                     <div class="card workshop-category h-100">
                         <div class="card-body">
                             <h4 class="card-title fw-bold"><i class="fas fa-running me-2"></i>Espacios de Creatividad</h4>
-                            <ul class="list-unstyled workshop-list">
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Orquesta Estudiantil</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Banda Musical</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Coro Polifónico</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Grupo de Teatro</li>
-                                <li class="py-2"><i class="fas fa-check-circle me-2"></i>Taller de Danzas</li>
-                            </ul>
                         </div>
                     </div>
                 </div>

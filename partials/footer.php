@@ -1,4 +1,13 @@
+<style>
+    #footer {
+        position: relative;
+    }
+</style>
 <footer id="footer">
+    <a href="#" style="position: absolute; right: 20px; top: 10px; font-size: 36px;">
+        <span style="color: var(--color1);"><i class="fas fa-chevron-circle-up"></i></span>
+    </a>
+
     <div class="container py-4">
         <div class="row ">
             <div class="col-lg-3 px-4">
@@ -76,7 +85,7 @@
 
             <div class="col d-flex justify-content-start align-items-center">
                 <p class="my-1 text-center" style="font-size: 15px; color:var(--color3);"> María Auxiliadora - Breña. © 2025 </p>
-               <!--  <p class="my-1 text-center px-3" style="font-size:15px; color:var(--color1)"><a href="https://www.colegiojacquescousteau.edu.pe/public/files/politicas-priv-jacques.pdf" target="_blank">Conoce nuestras Politicas de Privacidad</a></p><a href="https://www.colegiojacquescousteau.edu.pe/public/files/politicas-priv-jacques.pdf" target="_blank">
+                <!--  <p class="my-1 text-center px-3" style="font-size:15px; color:var(--color1)"><a href="https://www.colegiojacquescousteau.edu.pe/public/files/politicas-priv-jacques.pdf" target="_blank">Conoce nuestras Politicas de Privacidad</a></p><a href="https://www.colegiojacquescousteau.edu.pe/public/files/politicas-priv-jacques.pdf" target="_blank">
                 </a> -->
             </div>
 

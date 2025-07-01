@@ -394,73 +394,73 @@
                 </style>
                 <div class="row cards d-flex justify-content-center align-items-center">
                     <div class="col-lg-4 pt-5">
-                        <div class=" card-galeria card1">
+                        <div class=" card-galeria card1 mx-4">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/galeria/p1_galeria.jpeg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/portadas/boletin-informativo.png" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-9">
                                         <h3>Boletín Informativo 2025</h3>
                                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                         <a class="btn" href="./view2.php?id=1">Ver Más</a>
                                     </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
+                                    <div class="col-lg-3 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/logo.png" width="80%" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 pt-5">
-                        <div class="card-galeria card2">
+                        <div class="card-galeria card2 mx-4">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/galeria/p2_galeria.jpg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/portadas/pci-2025.png" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-9">
                                         <h3>Proyecto Curricular 2025</h3>
                                         <a class="btn" href="./view2.php?id=2">Ver Más</a>
                                     </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
+                                    <div class="col-lg-3 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/logo.png" width="80%" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 pt-5">
-                        <div class="card-galeria card3">
+                        <div class="card-galeria card3 mx-4">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/galeria/p3_galeria.jpg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/portadas/pei-2025.jpg" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-5">
-                                        <h3>Proyecto Educativo</h3>
+                                    <div class="col-lg-9">
+                                        <h3>Proyecto Educativo 2025</h3>
                                         <a class="btn" href="./view2.php?id=3">Ver Más</a>
                                     </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
+                                    <div class="col-lg-3 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/logo.png" width="80%" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 pt-5">
-                        <div class="card-galeria card3">
+                        <div class="card-galeria card3 mx-4">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/galeria/p3_galeria.jpg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/portadas/reglamento-interno.png" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-5">
-                                        <h3>Reglamento Interno</h3>
+                                    <div class="col-lg-9">
+                                        <h3>Reglamento Interno 2025</h3>
                                         <a class="btn" href="./view2.php?id=4">Ver Más</a>
                                     </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/logo.png" width="35%" alt="">
+                                    <div class="col-lg-3 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/logo.png" width="80%" alt="">
                                     </div>
                                 </div>
                             </div>
