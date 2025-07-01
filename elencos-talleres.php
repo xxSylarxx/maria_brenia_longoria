@@ -117,6 +117,12 @@
         .workshop-category {
             border-bottom: 4px solid var(--color1);
             height: 100%;
+            transition: ease-in-out 0.3s;
+        }
+        .workshop-category:hover {
+            background-color: rgba(233, 239, 248, 0.4);
+             border-bottom: 4px solid var(--color4);
+             scale: 1.02;
         }
 
         .workshop-category h4 i {
@@ -424,7 +430,10 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card workshop-category h-100">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold"><i class="fas fa-child me-2"></i>Arte y Expresión</h4>
+                            <h4 class="card-title fw-bold text-center">Arte y Expresión</h4>
+                            <div class="text-center">
+                                <i class="fas fa-child me-2" style="font-size: 6rem;color:var(--color2);padding:2rem;"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -433,7 +442,10 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card workshop-category h-100">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold"><i class="fas fa-hands me-2"></i>Desarrollo Creativo</h4>
+                            <h4 class="card-title fw-bold text-center">Desarrollo Creativo</h4>
+                             <div class="text-center">
+                                <i class="fas fa-hands me-2" style="font-size: 6rem;color:var(--color2);padding:2rem;"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -441,14 +453,20 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card workshop-category h-100">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold"><i class="fas fa-graduation-cap me-2"></i>Refuerzo Académico</h4>
+                            <h4 class="card-title fw-bold text-center">Refuerzo Académico</h4>
+                            <div class="text-center">
+                                <i class="fas fa-graduation-cap me-2" style="font-size: 6rem;color:var(--color2);padding:2rem;"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card workshop-category h-100">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold"><i class="fas fa-running me-2"></i>Espacios de Creatividad</h4>
+                            <h4 class="card-title fw-bold text-center">Espacios de Creatividad</h4>
+                            <div class="text-center">
+                                <i class="fas fa-running me-2" style="font-size: 6rem;color:var(--color2);padding:2rem;"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
